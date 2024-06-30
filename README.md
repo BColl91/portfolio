@@ -1,3 +1,3 @@
 W I P 
 
-An online portfolio about me and expressing various digital skills I have achieved!
+An online portfolio about me while expressing various digital skills I have achieved!
