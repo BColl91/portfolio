@@ -6,4 +6,8 @@
     }
     .header{font-family: Arial, Helvetica, sans-serif;}
     .Light{color:#b82be2}
-    .list{color: #00e6ad;}
+
+
+.list ul{
+    color: #00e6ad;
+}
