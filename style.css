@@ -54,7 +54,15 @@ a {
     height: 300px;
     border: 2px solid #00e6e6;
     border-radius: 15px;
-}
+    border-radius: 05;
+    transition: border-radius 0.3s ease-in-out;
+    }
+
+.cat:hover {
+     border-radius: 50%;
+    }
+    
+
 
 footer {
     display: flex;
