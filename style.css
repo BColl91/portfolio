@@ -110,6 +110,23 @@ body::before {
 }
 
 .links img {
-	width: 50px; /* Adjust the size as needed */
-	height: 50px; /* Adjust the size as needed */
+	width: 50px; 
+	height: 50px;
+}
+
+.icon-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--highlight-color, rgba(255, 255, 0, 0.5)); /* Default to yellow highlight */
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.icon-link:hover::before {
+    opacity: 1;
 }
